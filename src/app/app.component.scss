@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 16px 24px;
+  max-width: 600px;
+  margin: auto;
+  min-width: 600px;
+  overflow-x: auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+select {
+  width: 90px;
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 3px 8px;
+  margin-left: 10px;
+}
+
+.form-group {
+  margin: 16px 0;
+}
+
+.separator {
+  border-bottom: 1px solid #DFE4EB;
+  padding-bottom: 10px;
+  color: #D0D7E2;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+}
+
+.cell button {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid #DFE4EB;
+  background: #fff;
+  outline: 0;
+}
+
+.cell button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  border: 1px solid #00B320 !important;
+  background: #fff;
+  color: #00B320;
+}
+
+.cell button.booked {
+  background: #D0D7E2;
+  pointer-events: none;
+  color: #fff;
+}
+
+.cell button.selected {
+  border: 1px solid #00B320;
+  background: #00B320;
+  color: #fff;
+}
+
+.cell button.surgedPrice {
+  border: 1px solid goldenrod;
+}
+
+.alphabet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D0D7E2;
+  font-size: 18px;
+}
+
+.showcase {
+  margin-top: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 2px;
+}
+
+.button {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 2px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
